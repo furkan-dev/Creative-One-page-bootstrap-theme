@@ -1,0 +1,265 @@
+html,body,#header{
+	height:100%;
+}
+
+::selection{
+	color:#d9390d;
+	background:#f2f2f2;
+}
+
+
+/*Navbar*/
+.navbar{
+	background-color:transparent !important;
+	padding:20px 120px;
+	letter-spacing:0.5px;
+}
+a.navbar-brand{
+	color:white!important;
+	opacity:0.7;
+	font-size:1.25rem;
+	font-weight:700;
+}
+
+a.navbar-brand:hover{
+	opacity:1;
+}
+
+.nav-link{
+	color:white!important;
+	opacity:0.7;
+	font-size:14.9px;
+	font-weight:700;
+	padding-left:1rem!important;
+	transition:ease all 75ms;
+}
+
+.nav-link:hover{
+	opacity:1;
+	
+}
+
+/*Header*/
+#header{
+	background:url("../images/header.jpg") no-repeat center center ;
+	background-size:cover;
+	position:relative;
+	display:flex;
+	align-items:center !important;
+
+  ;
+
+}
+.color-overlay{
+	width:100%;
+	height:100%;
+	background:linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%);
+	position:absolute;
+}
+
+h1{
+	font-size:3.5rem;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+p{
+	font-size:1.15rem;
+	font-family: 'Merriweather', serif;
+}
+#header p{
+	font-size:1.15rem;
+	font-family: 'Merriweather', serif;
+    color:white !important;
+	opacity:0.75;
+	
+	
+}
+
+#header hr{
+	border-color:#f4623a;
+	max-width:3.25rem;
+	border-width:.2rem;
+}
+
+#header .btn-primary{
+	background-color:#f4623a;
+    padding:1.25rem 2.25rem;
+	border-radius:10rem;
+	border:none;
+	font-weight:700;
+}
+#header .btn-primary:hover{
+	background:#f13f0e;	
+	box-shadow:0 0 0 5px #f78c6e;
+}
+
+
+/*About*/
+#about{
+	background:#f4623a;
+	padding:8rem 0;
+}
+
+#about p{
+	font-size:1rem;
+}
+
+#about hr{
+	border-color:white;
+	max-width:3.25rem;
+	border-width:.2rem;
+}
+
+#about .btn-primary{
+	background-color:#f2f2f2;
+    padding:1.25rem 2.25rem;
+	border-radius:10rem;
+	border:none;
+	font-weight:700;
+}
+#about .btn-primary:hover{
+	background:#d9d9d9;	
+	box-shadow:0 0 0 5px brown;
+}
+
+/*Services*/
+#services{
+	padding:8rem 0;
+}
+#services hr{
+	border-color:#f4623a;
+	max-width:3.25rem;
+	border-width:.2rem;
+}
+
+#services p{
+	font-size:1rem;
+}
+
+.fas{
+	color:#f4623a
+}
+
+
+/*Free*/
+#free{
+	padding:8rem 0;
+	background:#343a40;
+}
+
+#free .btn-primary{
+	background-color:#f2f2f2;
+    padding:1.25rem 2.25rem;
+	border-radius:10rem;
+	border:none;
+	font-weight:700;
+}
+#free .btn-primary:hover{
+	background:#d9d9d9;	
+	box-shadow:0 0 0 5px gray;
+}
+
+/*Contact*/
+#contact{
+	padding:8rem 0;
+}
+
+#contact hr{
+	border-color:#f4623a;
+	max-width:3.25rem;
+	border-width:.2rem;
+}
+
+#contact p{
+	font-size:1rem;
+}
+
+#contact a{
+	color:#f4623a;
+}
+
+#contact a:hover{
+	color:brown;
+}
+
+/*Footer*/
+#footer .small{
+	font-family: 'Merriweather', serif!important;
+    font-size:12.8px;
+}
+
+
+/*NAVBAR SCROLL COLOR EFFECT*/
+.fix-top{
+	margin-top:0 !important;
+	background:white !important;
+	color:black!important;
+	transition:all ease-out 300ms;
+}
+.fix-top a{
+	color:black!important;
+	opacity:0.7;
+	font-size:14.9px;
+	font-weight:700;
+	padding-left:1rem!important;
+	transition:ease all 75ms!important;
+}
+
+
+
+
+/*İMAGE HOVER OVERLAY EFFECT*/
+.overlay{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	opacity:0;
+	transition:300ms ease;
+	background-color:rgba(244,98,58,.9);
+}
+
+.text {
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Merriweather', serif!important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text1 {
+  color: white;
+  font-family: 'Merriweather', serif!important;
+  color:rgba(255,255,255,.5);
+  font-size: 0.85rem;
+  font-weight:600;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.col-lg-4:hover .overlay{
+	opacity:1;
+	cursor:pointer;
+}
+
+
+/*SCROLLSPY*/
+body{
+	position:relative!important;
+}
+
+
+
+
